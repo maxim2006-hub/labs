@@ -2,7 +2,7 @@ import java.util.regex.*;
 
 public class NumberFinder {
     public static void main(String[] args) {
-        String text = "The price is 19.99, the discount is 5, final: 14.99";
+        String text = "The price is 23.95, the discount is 2, final: 21.95";
 
         try {
             if (text == null) throw new Exception("Текст отсутствует");
